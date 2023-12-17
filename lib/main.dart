@@ -5,7 +5,7 @@ void main() {
   runApp(const NotesApp());
 }
 
-class NotesApp extends StatelessWidget {
+class NotesApp extends StatelessWidget { 
   const NotesApp({super.key});
 
   @override
@@ -14,6 +14,40 @@ class NotesApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(brightness: Brightness.dark, fontFamily: 'Poppins'),
       home: const NotesView(),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
     );
   }
 }
