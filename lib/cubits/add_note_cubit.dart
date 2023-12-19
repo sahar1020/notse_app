@@ -4,5 +4,5 @@ import 'package:meta/meta.dart';
 part 'notes_state.dart';
 
 class NotesCubit extends Cubit<NotesState>{
-  NotesCubit():super(NotesInitial());
+  NotesCubit():super(AddNotesInitial());
 }
